@@ -1,0 +1,121 @@
+Linked List Operations
+1. Traversal
+
+Traversal means visiting each node of the linked list one by one to access or display data.
+
+Process
+Start from the head node
+Move to the next node repeatedly
+Stop when NULL is reached
+Example
+10 → 20 → 30 → NULL
+
+Traversal output:
+
+10 20 30
+2. Insertion
+
+Insertion means adding a new node into the linked list.
+
+Types of Insertion
+a) Insertion at Beginning
+
+New node is added before the head node.
+
+b) Insertion at End
+
+New node is added after the last node.
+
+c) Insertion at Specific Position
+
+New node is inserted between two nodes.
+
+Advantage
+
+Insertion is efficient because shifting elements is not required.
+
+3. Deletion
+
+Deletion means removing a node from the linked list.
+
+Types of Deletion
+a) Deletion from Beginning
+
+Head node is removed.
+
+b) Deletion from End
+
+Last node is removed.
+
+c) Deletion at Specific Position
+
+A node between two nodes is removed.
+
+Important Point
+
+Pointers must be updated properly after deletion.
+
+4. Searching
+
+Searching means finding whether a particular element exists in the linked list.
+
+Process
+Start from head
+Compare each node value with target value
+Stop when value is found or list ends
+Example
+
+Searching 20 in:
+
+10 → 20 → 30
+
+Result:
+
+Element Found
+5. Updating
+
+Updating means changing the value stored in a node.
+
+Example
+10 → 20 → 30
+
+Update 20 to 25:
+
+10 → 25 → 30
+6. Reversing
+
+Reversing means changing the direction of links.
+
+Example
+
+Original:
+
+10 → 20 → 30 → NULL
+
+Reversed:
+
+30 → 20 → 10 → NULL
+7. Sorting
+
+Sorting arranges nodes in ascending or descending order.
+
+Example
+
+Before sorting:
+
+30 → 10 → 20
+
+After sorting:
+
+10 → 20 → 30
+8. Merging
+
+Merging combines two linked lists into one list.
+
+Example
+List 1: 10 → 20
+List 2: 30 → 40
+
+Merged List:
+
+10 → 20 → 30 → 40
